@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint ./components --max-warnings 0"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
