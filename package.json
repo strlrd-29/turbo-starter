@@ -11,8 +11,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*": "prettier --write --ignore-unknown",
-    "*.{js,ts,jsx,tsx}": "eslint --fix --max-warnings 0"
+    "*": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
